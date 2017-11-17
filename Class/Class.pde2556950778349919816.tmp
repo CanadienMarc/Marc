@@ -1,0 +1,19 @@
+// Variables go here
+Ball myBall = new Ball(50,100,color(255, 0, 0)); // Initializing the Class
+Ball yourBall = new Ball(width-50,height-100,color(255, 255, 0));
+
+void setup () {
+  fullScreen();
+  print ("Screen Dimensions" + "\n My Width is " + displayWidth + "\n My Height is " + displayHeight); 
+} // End of Void Setup
+
+void draw () {
+  background (0); // Black on a GreyScale
+  
+  myBall.EdgeDetection();
+  myBall.ClassDraw();
+  
+  yourBall.EdgeDetection();
+  yourBall.ClassDraw();
+  
+} // End of Draw Loop
