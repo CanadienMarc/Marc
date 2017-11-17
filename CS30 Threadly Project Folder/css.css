@@ -1,0 +1,55 @@
+.greenline {
+  margin: auto;
+  width: 90%;
+  border-left: 3px solid green;
+  padding-left: 10px;
+}
+
+.blackline1 {
+  margin: auto;
+  width: 90%;
+  border-left: 3px solid black;
+  padding-left: 10px;
+}
+
+.blackline2 {
+  margin: auto;
+  width: 90%;
+  border-left: 3px solid black;
+  padding-left: 10px;
+}
+
+.formy {
+  margin: auto;
+  width: 90%;
+  border-left: 3px solid black;
+  padding-left: 10px;
+}
+
+.input1 {
+  width: 100%;
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  background-color: #DDDDDD;
+  border: 0px solid white;
+  padding-left: 10px;
+}
+
+.input2 {
+  width: 25%;
+  display: block;
+  font-size: 1.5em;
+  -webkit-margin-before: 0.83em;
+  -webkit-margin-after: 0.83em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  font-weight: bold;
+  background-color: white;
+  color: green;
+  border: 0px solid white;
+}
