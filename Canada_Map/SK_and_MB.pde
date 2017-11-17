@@ -1,0 +1,145 @@
+void Saskatchewan () {
+  if (round == esk) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Skflag, 25, 25, 200, 150);
+    image (Skcoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Return to map", 40, 35);
+    textFont (Province);
+    text ("Saskatchewan", 25, 180);
+    textFont (Info);
+    text ("Founded: September 1, 1905", 25, 210);
+    text ("Capital: Regina", 25, 240);
+    text ("Largest City: Saskatoon", 25, 270);
+    text ("Official Languages: English, French", 25, 300);
+    text ("Premier: Brad Wall (Saskatchewan Party)", 25, 330);
+    text ("Area:", 25, 360);
+    text ("Total: 651 900 sq km", 40, 380);
+    text ("Water: 59 366 sq km (9.1%)", 40, 400);
+    text ("Proportion of Canada: 6.5%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("2011 census: 1 033 381", 40, 470);
+    text ("Density: 1.75/sq km", 40, 490);
+    text ("Abbreviations:", 25, 520);
+    text ("Postal: SK", 40, 540);
+    text ("ISO 3166-2: CA-SK", 40, 560);
+    text ("Time Zone: Central (UTC-6)", 25, 590);
+    text ("Postal Code Prefix: S", 25, 620);
+    text ("Symbols:", 25, 650);
+    text ("Flower: Western red lily", 40, 670);
+    text ("Tree: Paper Birch", 40, 690);
+    text ("Bird: Sharp-tailed Grouse", 40, 710);
+    text ("Demonym: Saskatchewanian, Saskatchewanite", 25, 740);
+  }
+  else if (round == fsk) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Skflag, 25, 25, 200, 150);
+    image (Skcoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Retour à la carte", 40, 35);
+    textFont (Province);
+    text ("Saskatchewan", 25, 180);
+    textFont (Info);
+    text ("Fondée: 1 Septembre 1905", 25, 210);
+    text ("Capitale: Regina", 25, 240);
+    text ("Plus grande ville: Saskatoon", 25, 270);
+    text ("Langues Officielles: Anglais, Français", 25, 300);
+    text ("Premier: Brad Wall (Saskatchewan Party)", 25, 330);
+    text ("Superficie:", 25, 360);
+    text ("Total: 651 900 sq km", 40, 380);
+    text ("Eau: 59 366 sq km (9.1%)", 40, 400);
+    text ("Proportion du Canada: 6.5%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("recensement de 2011: 1 033 381", 40, 470);
+    text ("Densité: 1.75/sq km", 40, 490);
+    text ("Abréviations:", 25, 520);
+    text ("Postal: SK", 40, 540);
+    text ("ISO 3166-2: CA-SK", 40, 560);
+    text ("Fuseau horaire: Central (UTC-6)", 25, 590);
+    text ("Code postal Prefix: S", 25, 620);
+    text ("Symboles:", 25, 650);
+    text ("Une fleur: Western red lily", 40, 670);
+    text ("Arbre: Paper Birch", 40, 690);
+    text ("Oiseau: Sharp-tailed Grouse", 40, 710);
+    text ("Gentilé: Saskatchewanais", 25, 740);
+  }
+}
+
+void Manitoba () {
+  if (round == emb) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Mbflag, 25, 25, 200, 150);
+    image (Mbcoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Return to map", 40, 35);
+    textFont (Province);
+    text ("Manitoba", 25, 180);
+    textFont (Info);
+    text ("Founded: July 15, 1870", 25, 210);
+    text ("Capital: Winnipeg", 25, 240);
+    text ("Largest City: Winnipeg", 25, 270);
+    text ("Official Languages: English", 25, 300);
+    text ("Premier: Brian Pallister (PC)", 25, 330);
+    text ("Area:", 25, 360);
+    text ("Total: 649 950 sq km", 40, 380);
+    text ("Water: 101 593 sq km (15.6%)", 40, 400);
+    text ("Proportion of Canada: 6.5%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("2011 census: 1 208 268", 40, 470);
+    text ("Density: 2.2/sq km", 40, 490);
+    text ("Abbreviations:", 25, 520);
+    text ("Postal: MB", 40, 540);
+    text ("ISO 3166-2: CA-MB", 40, 560);
+    text ("Time Zone: Central (UTC-6), (DST-5)", 25, 590);
+    text ("Postal Code Prefix: R", 25, 620);
+    text ("Symbols:", 25, 650);
+    text ("Flower: Prairie Crocus", 40, 670);
+    text ("Tree: White Spruce", 40, 690);
+    text ("Bird: Great Grey Owl", 40, 710);
+    text ("Demonym: Manitoban", 25, 740);
+  }
+  else if (round == fmb) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Mbflag, 25, 25, 200, 150);
+    image (Mbcoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Retour à la carte", 40, 35);
+    textFont (Province);
+    text ("Manitoba", 25, 180);
+    textFont (Info);
+    text ("Fondée: 15 Juillet 1870", 25, 210);
+    text ("Capitale: Winnipeg", 25, 240);
+    text ("Plus grande ville: Winnipeg", 25, 270);
+    text ("Langues Officielles: Anglais", 25, 300);
+    text ("Premier: Brian Pallister (PC)", 25, 330);
+    text ("Superficie:", 25, 360);
+    text ("Total: 649 950 sq km", 40, 380);
+    text ("Eau: 101 593 sq km (15.6%)", 40, 400);
+    text ("Proportion du Canada: 6.5%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("recensement de 2011: 1 208 268", 40, 470);
+    text ("Densité: 2.2/sq km", 40, 490);
+    text ("Abréviations:", 25, 520);
+    text ("Postal: MB", 40, 540);
+    text ("ISO 3166-2: CA-MB", 40, 560);
+    text ("Fuseau horaire: Central (UTC-6), (DST-5)", 25, 590);
+    text ("Code postal Prefix: R", 25, 620);
+    text ("Symboles:", 25, 650);
+    text ("Une fleur: Prairie Crocus", 40, 670);
+    text ("Arbre: White Spruce", 40, 690);
+    text ("Oiseau: Great Grey Owl", 40, 710);
+    text ("Gentilé: Manitobain", 25, 740);
+  }
+}

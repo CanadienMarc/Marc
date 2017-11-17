@@ -1,0 +1,145 @@
+void Ontario () {
+  if (round == eon) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Onflag, 25, 25, 200, 150);
+    image (Oncoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Return to map", 40, 35);
+    textFont (Province);
+    text ("Ontario", 25, 180);
+    textFont (Info);
+    text ("Founded: July 1, 1867", 25, 210);
+    text ("Capital: Toronto", 25, 240);
+    text ("Largest City: Toronto", 25, 270);
+    text ("Official Languages: English", 25, 300);
+    text ("Premier: Kathleen Wynne (Liberal)", 25, 330);
+    text ("Area:", 25, 360);
+    text ("Total: 1 076 395 sq km", 40, 380);
+    text ("Water: 158 654 sq km (14.7%)", 40, 400);
+    text ("Proportion of Canada: 10.8%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("2011 census: 12 851 821", 40, 470);
+    text ("Density: 14/sq km", 40, 490);
+    text ("Abbreviations:", 25, 520);
+    text ("Postal: ON", 40, 540);
+    text ("ISO 3166-2: CA-ON", 40, 560);
+    text ("Time Zone: Eastern (UTC-5/-4), Central (UTC-6/-5)", 25, 590);
+    text ("Postal Code Prefix: K, L, M, N, P", 25, 620);
+    text ("Symbols:", 25, 650);
+    text ("Flower: White Trillium", 40, 670);
+    text ("Tree: Eastern White Pine", 40, 690);
+    text ("Bird: Common Loon", 40, 710);
+    text ("Demonym: Ontarian", 25, 740);
+  }
+  else if (round == fon) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Onflag, 25, 25, 200, 150);
+    image (Oncoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Retour à la carte", 40, 35);
+    textFont (Province);
+    text ("Ontario", 25, 180);
+    textFont (Info);
+    text ("Fondée: 1 Juillet 1867", 25, 210);
+    text ("Capitale: Toronto", 25, 240);
+    text ("Plus grande ville: Toronto", 25, 270);
+    text ("Langues Officielles: Anglais, Français", 25, 300);
+    text ("Premier: Kathleen Wynne (Liberal)", 25, 330);
+    text ("Superficie:", 25, 360);
+    text ("Total: 1 076 395 sq km", 40, 380);
+    text ("Eau: 158 654 sq km (14.7%)", 40, 400);
+    text ("Proportion du Canada: 10.8%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("recensement de 2011: 12 851 821", 40, 470);
+    text ("Densité: 14/sq km", 40, 490);
+    text ("Abréviations:", 25, 520);
+    text ("Postal: ON", 40, 540);
+    text ("ISO 3166-2: CA-ON", 40, 560);
+    text ("Fuseau horaire: Est (UTC-5/-4), Central (UTC-6/-5)", 25, 590);
+    text ("Code postal Prefix: K, L, M, N, P", 25, 620);
+    text ("Symboles:", 25, 650);
+    text ("Une fleur: White Trillium", 40, 670);
+    text ("Arbre: Eastern White Pine", 40, 690);
+    text ("Oiseau: Common Loon", 40, 710);
+    text ("Gentilé: Ontarienne", 25, 740);
+  }
+}
+
+void Quebec () {
+  if (round == eqc) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Qcflag, 25, 25, 200, 150);
+    image (Qccoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Return to map", 40, 35);
+    textFont (Province);
+    text ("Quebec", 25, 180);
+    textFont (Info);
+    text ("Founded: July 1, 1867", 25, 210);
+    text ("Capital: Québec City", 25, 240);
+    text ("Largest City: Montreal", 25, 270);
+    text ("Official Languages: French", 25, 300);
+    text ("Premier: Philippe Couillard (Liberal)", 25, 330);
+    text ("Area:", 25, 360);
+    text ("Total: 1 542 056 sq km", 40, 380);
+    text ("Water: 176 928 sq km (11.5%)", 40, 400);
+    text ("Proportion of Canada: 15.4%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("2011 census: 7 903 001", 40, 470);
+    text ("Density: 5.79/sq km", 40, 490);
+    text ("Abbreviations:", 25, 520);
+    text ("Postal: QC", 40, 540);
+    text ("ISO 3166-2: CA-QC", 40, 560);
+    text ("Eastern (UTC-5/-4)", 25, 590);
+    text ("Postal Code Prefix: G, H, J", 25, 620);
+    text ("Symbols:", 25, 650);
+    text ("Flower: Blue Flag Iris", 40, 670);
+    text ("Tree: Yellow Birch", 40, 690);
+    text ("Bird: Snowy Owl", 40, 710);
+    text ("Demonym: Quebecer (English), Quebecker (English), Québécois (French)", 25, 740);
+  }
+  else if (round == fqc) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Qcflag, 25, 25, 200, 150);
+    image (Qccoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Retour à la carte", 40, 35);
+    textFont (Province);
+    text ("Quebec", 25, 180);
+    textFont (Info);
+    text ("Fondée: 1 Juillet 1867", 25, 210);
+    text ("Capitale: Québec City", 25, 240);
+    text ("Plus grande ville: Montreal", 25, 270);
+    text ("Langues Officielles: Français", 25, 300);
+    text ("Premier: Philippe Couillard (Liberal)", 25, 330);
+    text ("Superficie:", 25, 360);
+    text ("Total: 1 542 056 sq km", 40, 380);
+    text ("Eau: 176 928 sq km (11.5%)", 40, 400);
+    text ("Proportion du Canada: 15.4%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("recensement de 2011: 7 903 001", 40, 470);
+    text ("Densité: 5.79/sq km", 40, 490);
+    text ("Abréviations:", 25, 520);
+    text ("Postal: QC", 40, 540);
+    text ("ISO 3166-2: CA-QC", 40, 560);
+    text ("Fuseau horaire: Est (UTC-5/-4)", 25, 590);
+    text ("Code postal Prefix: G, H, J", 25, 620);
+    text ("Symboles:", 25, 650);
+    text ("Une fleur: Blue Flag Iris", 40, 670);
+    text ("Arbre: Yellow Birch", 40, 690);
+    text ("Oiseau: Snowy Owl", 40, 710);
+    text ("Gentilé: Québécois (French)", 25, 740);
+  }
+}

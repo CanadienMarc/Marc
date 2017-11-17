@@ -1,0 +1,145 @@
+void Nunavut () {
+  if (round == enu) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Nuflag, 25, 50, 150, 100);
+    image (Nucoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Return to map", 40, 35);
+    textFont (Province);
+    text ("Nunavut", 25, 180);
+    textFont (Info);
+    text ("Founded: April 1, 1999", 25, 210);
+    text ("Capital: Iqaluit", 25, 240);
+    text ("Largest City: Iqaluit", 25, 270);
+    text ("Official Languages: English, French, Inuit", 25, 300);
+    text ("Premier: Peter Taptuna (Consensus Government)", 25, 330);
+    text ("Area:", 25, 360);
+    text ("Total: 2 038 722 sq km", 40, 380);
+    text ("Water: 160 935 sq km (7.9%)", 40, 400);
+    text ("Proportion of Canada: 20.4%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("2011 census: 31 906", 40, 470);
+    text ("Density: 0.02/sq km", 40, 490);
+    text ("Abbreviations:", 25, 520);
+    text ("Postal: NU", 40, 540);
+    text ("ISO 3166-2: CA-NU", 40, 560);
+    text ("Mountain (UTC-7), Central (UTC-6), Eastern (UTC-5)", 25, 590);
+    text ("Postal Code Prefix: X", 25, 620);
+    text ("Symbols:", 25, 650);
+    text ("Flower: Purple Saxifrage", 40, 670);
+    text ("Animal: Canadian Eskimo Dog", 40, 690);
+    text ("Bird: Rock Ptarmigan", 40, 710);
+    text ("Demonym: Nunavummiut", 25, 740);
+  }
+  else if (round == fnu) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Nuflag, 25, 50, 150, 100);
+    image (Nucoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Retour à la carte", 40, 35);
+    textFont (Province);
+    text ("Nunavut", 25, 180);
+    textFont (Info);
+    text ("Fondée: 1 Avril 1999", 25, 210);
+    text ("Capitale: Iqaluit", 25, 240);
+    text ("Plus grande ville: Iqaluit", 25, 270);
+    text ("Langues Officielles: Anglais, Français, Inuit", 25, 300);
+    text ("Premier: Peter Taptuna (Consensus Government)", 25, 330);
+    text ("Superficie:", 25, 360);
+    text ("Total: 2 038 722 sq km", 40, 380);
+    text ("Eau: 160 935 sq km (7.9%)", 40, 400);
+    text ("Proportion du Canada: 20.4%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("recensement de 2011: 31 906", 40, 470);
+    text ("Densité: 0.02/sq km", 40, 490);
+    text ("Abréviations:", 25, 520);
+    text ("Postal: NU", 40, 540);
+    text ("ISO 3166-2: CA-NU", 40, 560);
+    text ("Fuseau horaire: Montagne (UTC-7), Central (UTC-6), Est (UTC-5)", 25, 590);
+    text ("Code postal Prefix: X", 25, 620);
+    text ("Symboles:", 25, 650);
+    text ("Une Fleur: Purple Saxifrage", 40, 670);
+    text ("Animaux: Canadian Eskimo Dog", 40, 690);
+    text ("Oiseau: Rock Ptarmigan", 40, 710);
+    text ("Gentilé: Nunavummiut", 25, 740);
+  }
+}
+
+void NWT () {
+  if (round == ent) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Ntflag, 25, 25, 200, 150);
+    image (Ntcoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Return to map", 40, 35);
+    textFont (Province);
+    text ("Northwest Territories", 25, 180);
+    textFont (Info);
+    text ("Founded: July 15, 1870", 25, 210);
+    text ("Capital: Yellowknife", 25, 240);
+    text ("Largest City: Yellowknife", 25, 260);
+    text ("Official Languages: English, French, Chipewyan, Cree, Gwich'in, Inuinnaqtun, Inuktitut, Inuvialuktun, North Slavey,\nSouth Slavey, Tlicho", 25, 290);
+    text ("Premier: Bob McLeod (Consensus Government)", 25, 335);
+    text ("Area:", 25, 360);
+    text ("Total: 1 346 106 sq km", 40, 380);
+    text ("Water: 163 021 sq km (12.1%)", 40, 400);
+    text ("Proportion of Canada: 13.5%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("2011 census: 41 462", 40, 470);
+    text ("Density: 0.04/sq km", 40, 490);
+    text ("Abbreviations:", 25, 520);
+    text ("Postal: NT", 40, 540);
+    text ("ISO 3166-2: CA-NT", 40, 560);
+    text ("Mountain (UTC-7)", 25, 590);
+    text ("Postal Code Prefix: X0, X1", 25, 620);
+    text ("Symbols:", 25, 650);
+    text ("Flower: Mountain Avens", 40, 670);
+    text ("Tree: Tamarack Larch", 40, 690);
+    text ("Bird: Gyrfalcon", 40, 710);
+    text ("Demonym: Northwest Territorian", 25, 740);
+  }
+  else if (round == fnt) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Ntflag, 25, 25, 200, 150);
+    image (Ntcoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Retour à la carte", 40, 35);
+    textFont (Province);
+    text ("Northwest Territories", 25, 180);
+    textFont (Info);
+    text ("Fondée: 15 Juillet 1870", 25, 210);
+    text ("Capitale: Yellowknife", 25, 240);
+    text ("Plus grande ville: Yellowknife", 25, 260);
+    text ("Langues Officielles: Anglais, Français, Chipewyan, Cree, Gwich'in, Inuinnaqtun, Inuktitut, Inuvialuktun, North Slavey,\nSouth Slavey, Tlicho", 25, 290);
+    text ("Premier: Bob McLeod (Consensus Government)", 25, 335);
+    text ("Superficie:", 25, 360);
+    text ("Total: 1 346 106 sq km", 40, 380);
+    text ("Eau: 163 021 sq km (12.1%)", 40, 400);
+    text ("Proportion du Canada: 13.5%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("recensement de 2011: 41 462", 40, 470);
+    text ("Densité: 0.04/sq km", 40, 490);
+    text ("Abréviations:", 25, 520);
+    text ("Postal: NT", 40, 540);
+    text ("ISO 3166-2: CA-NT", 40, 560);
+    text ("Fuseau horaire: Montagne (UTC-7)", 25, 590);
+    text ("Code postal Prefix: X0, X1", 25, 620);
+    text ("Symboles:", 25, 650);
+    text ("Une Fleur: Mountain Avens", 40, 670);
+    text ("Arbre: Tamarack Larch", 40, 690);
+    text ("Oiseau: Gyrfalcon", 40, 710);
+    text ("Gentilé: Northwest Territorian", 25, 740);
+  }
+}

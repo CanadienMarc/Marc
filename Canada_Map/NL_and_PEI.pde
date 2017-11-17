@@ -1,0 +1,145 @@
+void Newfoundland () {
+  if (round == enl) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Nlflag, 25, 25, 200, 150);
+    image (Nlcoa, 250, 25, 150, 130);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Return to map", 40, 35);
+    textFont (Province);
+    text ("Newfoundland and Labrador", 25, 180);
+    textFont (Info);
+    text ("Founded: March 31, 1949", 25, 210);
+    text ("Capital: St. John's", 25, 240);
+    text ("Largest City: St. John's", 25, 270);
+    text ("Official Languages: English", 25, 300);
+    text ("Premier: Dwight Ball (Liberal)", 25, 330);
+    text ("Area:", 25, 360);
+    text ("Total: 405 212 sq km", 40, 380);
+    text ("Water: 31 340 sq km (7.7%)", 40, 400);
+    text ("Proportion of Canada: 4.1%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("2011 census: 514 536", 40, 470);
+    text ("Density: 1.38/sq km", 40, 490);
+    text ("Abbreviations:", 25, 520);
+    text ("Postal: NL", 40, 540);
+    text ("ISO 3166-2: CA-NL", 40, 560);
+    text ("UTC-3.5, UTC-4", 25, 590);
+    text ("Postal Code Prefix: A", 25, 620);
+    text ("Symbols:", 25, 650);
+    text ("Flower: Pitcher Plant", 40, 670);
+    text ("Tree: Black Spruce", 40, 690);
+    text ("Bird: Atlantic Puffin", 40, 710);
+    text ("Demonym: Newfoundlander Labradorian", 25, 740);
+  }
+  else if (round == fnl) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Nlflag, 25, 25, 200, 150);
+    image (Nlcoa, 250, 25, 150, 130);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Retour à la carte", 40, 35);
+    textFont (Province);
+    text ("Newfoundland and Labrador", 25, 180);
+    textFont (Info);
+    text ("Fondée: 31 Mars 1949", 25, 210);
+    text ("Capitale: St. John's", 25, 240);
+    text ("Plus grande ville: St. John's", 25, 270);
+    text ("Langues Officielles: Anglais", 25, 300);
+    text ("Premier: Dwight Ball (Liberal)", 25, 330);
+    text ("Superficie:", 25, 360);
+    text ("Total: 405 212 sq km", 40, 380);
+    text ("Eau: 31 340 sq km (7.7%)", 40, 400);
+    text ("Proportion du Canada: 4.1%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("recensement de 2011: 514 536", 40, 470);
+    text ("Densité: 1.38/sq km", 40, 490);
+    text ("Abréviations:", 25, 520);
+    text ("Postal: NL", 40, 540);
+    text ("ISO 3166-2: CA-NL", 40, 560);
+    text ("Fuseau horaire: UTC-3.5, Atlantic (UTC-4)", 25, 590);
+    text ("Code postal Prefix: A", 25, 620);
+    text ("Symboles:", 25, 650);
+    text ("Une Fleur: Pitcher Plant", 40, 670);
+    text ("Arbre: Black Spruce", 40, 690);
+    text ("Oiseau: Atlantic Puffin", 40, 710);
+    text ("Gentilé: Newfoundlander Labradorian", 25, 740);
+  }
+}
+
+void PEI () {
+  if (round == epei) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Peiflag, 25, 45, 200, 100);
+    image (Peicoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Return to map", 40, 35);
+    textFont (Province);
+    text ("Prince Edward Island", 25, 180);
+    textFont (Info);
+    text ("Founded: July 1, 1873", 25, 210);
+    text ("Capital: Charlottetown", 25, 240);
+    text ("Largest City: Charlottetown", 25, 270);
+    text ("Official Languages: English", 25, 300);
+    text ("Premier: Wade MacLauchlan (Liberal)", 25, 330);
+    text ("Area:", 25, 360);
+    text ("Total: 140 204 sq km", 40, 380);
+    text ("Water: 0 sq km (0%)", 40, 400);
+    text ("Proportion of Canada: 0.1%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("2011 census: 140 204", 40, 470);
+    text ("Density: 24.77/sq km", 40, 490);
+    text ("Abbreviations:", 25, 520);
+    text ("Postal: PE", 40, 540);
+    text ("ISO 3166-2: CA-PE", 40, 560);
+    text ("Atlantic (UTC-4)", 25, 590);
+    text ("Postal Code Prefix: C", 25, 620);
+    text ("Symbols:", 25, 650);
+    text ("Flower: Pink Lady's Slipper", 40, 670);
+    text ("Tree: Red Oak", 40, 690);
+    text ("Bird: Blue jay", 40, 710);
+    text ("Demonym: Prince Edward Islander, Islander", 25, 740);
+  }
+  else if (round == fpei) {
+    clear();
+    textAlign (LEFT);
+    background (0, 0, 255);
+    image (Peiflag, 25, 45, 200, 100);
+    image (Peicoa, 250, 25, 150, 150);
+    triangle (25, 25, 35, 15, 35, 35); 
+    textFont (Back);
+    text ("Retour à la carte", 40, 35);
+    textFont (Province);
+    text ("Prince Edward Island", 25, 180);
+    textFont (Info);
+    text ("Fondée: 1 Juillet 1873", 25, 210);
+    text ("Capitale: Charlottetown", 25, 240);
+    text ("Plus grande ville: Charlottetown", 25, 270);
+    text ("Langues Officielles: Anglais", 25, 300);
+    text ("Premier: Wade MacLauchlan (Liberal)", 25, 330);
+    text ("Superficie:", 25, 360);
+    text ("Total: 140 204 sq km", 40, 380);
+    text ("Eau: 0 sq km (0%)", 40, 400);
+    text ("Proportion du Canada: 0.1%", 40, 420);
+    text ("Population:", 25, 450);
+    text ("recensement de 2011: 140 204", 40, 470);
+    text ("Densité: 24.77/sq km", 40, 490);
+    text ("Abréviations:", 25, 520);
+    text ("Postal: PE", 40, 540);
+    text ("ISO 3166-2: CA-PE", 40, 560);
+    text ("Fuseau horaire: Atlantic (UTC-4)", 25, 590);
+    text ("Code postal Prefix: C", 25, 620);
+    text ("Symboles:", 25, 650);
+    text ("Une fleur: Pink Lady's Slipper", 40, 670);
+    text ("Arbre: Red Oak", 40, 690);
+    text ("Oiseau: Blue jay", 40, 710);
+    text ("Gentilé: Prince Edward Islander, Islander", 25, 740);
+  }
+}
